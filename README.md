@@ -1,10 +1,10 @@
-//spamtelegram by QaSim
+//spam message the chats in telegram
 //open up telegram web and go to the chat you want to spam 
-//open console ( Ctrl + Shift + J )
+//open console ( Ctrl + Shift + J ) if you use windows
 //execute the code 
-var message = ""; //spam message 
-var interval = 1  ; // in seconds 
-var count = 10 ; //number of times to send
+var message = "Hello world"; //spam message 
+var interval = 2  ; // in seconds 
+var count = 15 ; //number of times of massage
 var notifyInterval = 5 ; //notify 
 var i = 0 ;
 var timer = setInterval(function(){
